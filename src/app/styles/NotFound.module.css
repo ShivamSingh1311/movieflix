@@ -1,0 +1,18 @@
+.not-found {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .not-found h2 {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .not-found p {
+    font-size: 1.5rem;
+  }
+  
+  .not-found a {
+    color: blue;
+    text-decoration: none;
+  }
