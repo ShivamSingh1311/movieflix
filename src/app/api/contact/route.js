@@ -6,7 +6,7 @@ export async function POST(req, res) {
   try {
     const body = await req.json();
     await dbConn();
-
+    console.log("connected succefully");
     await Contact.create(body);
 
     return NextResponse.json(

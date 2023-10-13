@@ -4,15 +4,7 @@
     margin: 6rem auto 0 auto;
 }
 
-.footer::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 100px;
-    height: 1px;
-    width: 100%;
-    background: #AFAFB6;
-}
+
 
 .footer .content {
     max-width: 140rem;
